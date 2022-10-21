@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">BCC I HUB</string>
+
+    <string name="url">https://test.smartsimjgraphics.com/bcc_app/</string>
+
+    <string name="login_subtitle">Sign In</string>
+    <string name="hint_str_email">Email</string>
+    <string name="hint_str_password">Password</string>
+    <string name="str_btn_login">Sign In Now</string>
+    <string name="txt_btn_signin">Sign In Now</string>
+    <string name="signin_subtitle">Sign In into your Account</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="str_dash_ph_dashboard">Dashboard</string>
+    <string name="str_ph_image_logo">image_logo</string>
+    <string name="str_dash_ph_new_customer">Customers</string>
+    <string name="str_dash_properties">Properties</string>
+    <string name="str_dash_log_out">Log Out</string>
+    <string name="str_dash_ph_statistics">Statistics</string>
+    <string name="str_dash_help_fab">About</string>
+    <string name="str_dash_users_fab">Users</string>
+
+    <string name="add_a_new_user">ADD NEW USER</string>
+    <string name="str_user_add_ph_firstname">Firstname</string>
+    <string name="str_user_add_btn_save">Add User</string>
+    <string name="str_user_add_ph_last_name">Lastname</string>
+    <string name="str_user_add_ph_phone_number">Mobile</string>
+    <string name="str_user_add_ph_email">Email</string>
+    <string name="str_user_add_ph_password">Password</string>
+    <string name="str_user_add_ph_confirm_password">Confirm Password</string>
+    <string name="str_user_add_ph_property_own">Property Name</string>
+    <string name="str_user_add_ph_max_amount">Max Amount Payable</string>
+    <string name="str_date_time">Pick Date</string>
+    <string name="str_user_add_ph_acc_number">Account Number</string>
+    <string name="str_user_add_ph_bank_name">Bank Name</string>
+    <string name="str_user_add_ph_acc_name">Account Name</string>
+    <string name="str_sub_payment">Pay Your City Rates</string>
+    <string name="txt_btn_pay_paypal">Pay with Paypal</string>
+
+    <string name="str_reg_comp_instr">Register Company/ Business</string>
+    <string name="str_company_name">Company Name</string>
+    <string name="str_btn_register">Register</string>
+    <string name="login_instead">SignIn Instead</string>
+    <string name="str_phone_number">Company Phone</string>
+    <string name="str_email_address">Company Email</string>
+    <string name="hint_str_password_reset_title">Reset password</string>
+    <string name="str_fgt_pass_email_address">Enter Registered Email Address</string>
+    <string name="str_ph_reset_btn">Reset Now</string>
+    <string name="_str_item__count_list">0</string>
+    <string name="users_registered_sub_heading">Users available for BCC I HUB</string>
+    <string name="str_available_property">Properties/ Businesses available</string>
+    <string name="register_company_business">Register Company/ Business</string>
+    <string name="str_ph_edit_user_details">Edit Your Details</string>
+    <string name="str_ph_edit_username">Edit Username</string>
+    <string name="str_ph_edit_phone_number">Edit Phone Number</string>
+    <string name="str_ph_edit_email">Edit Email</string>
+    <string name="str_ph_edit_password">Edit Password</string>
+    <string name="str_btn_edit_profile">Update</string>
+    <string name="str_dash__cust_ph_dashboard">USER DASHBOARD</string>
+    <string name="str_dash_user_Scc">My Account</string>
+    <string name="str_dash_cust_properties">My Properties</string>
+    <string name="str_user_add_ph_user_name">Username</string>
+    <string name="str_user_add_ph_address">Address</string>
+    <string name="str_user_add_ph_city">City</string>
+    <string name="str_user_add_ph_occupation">Occupation</string>
+    <string name="str_user_add_ph_fax">Fax</string>
+    <string name="str_dash_payments">Payments</string>
+    <string name="str_dash_cust_forum">Forum</string>
+    <string name="str_reg_comp_user">Register User Credentials</string>
+
+</resources>

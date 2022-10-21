@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/drawable/ic_baseline_forum_24.xml" value="0.20555555555555555" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/drawable/ic_baseline_money_on_24.xml" value="0.20555555555555555" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/drawable/ic_baseline_property_house_24.xml" value="0.20555555555555555" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_cust_add_property.xml" value="0.2" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_customer_complaint.xml" value="0.11614583333333334" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_customer_dash_board.xml" value="0.16296296296296298" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_customer_view_own_property.xml" value="0.1625" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_dash_board.xml" value="0.16296296296296298" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_payments.xml" value="0.16296296296296298" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_properties.xml" value="0.1625" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_property_add.xml" value="0.14444444444444443" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_register_business.xml" value="0.15925925925925927" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_register_login_user.xml" value="0.2" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_send_mail.xml" value="0.2" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_sign_in.xml" value="0.15925925925925927" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_statistics.xml" value="0.14814814814814814" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_users.xml" value="0.15462962962962962" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/activity_view_property.xml" value="0.1625" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/layout_payments_list_display.xml" value="0.16296296296296298" />
+        <entry key="..\:/PROJECTS/DROIDPROJECTS/BCCIHUB/app/src/main/res/layout/layout_property_list_display.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

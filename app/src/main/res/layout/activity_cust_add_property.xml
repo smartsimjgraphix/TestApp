@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCustAddProperty">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/web_hi_res_512"/>
+
+            <EditText
+                android:id="@+id/id_et_prop_title_cust"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Property Title"
+                android:background="@drawable/rounded_edit_text"
+                android:ems="10"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <EditText
+                android:id="@+id/id_et_prop_district_cust"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Property District"
+                android:background="@drawable/rounded_edit_text"
+                android:ems="10"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <EditText
+                android:id="@+id/id_et_prop_location_cust"
+                android:layout_margin="8dp"
+                android:hint="Property Location"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edit_text"
+                android:ems="10"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <EditText
+                android:id="@+id/id_et_prop_size_cust"
+                android:layout_margin="8dp"
+                android:hint="Property Size"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edit_text"
+                android:ems="10"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <EditText
+                android:id="@+id/id_et_prop_no_of_rooms_cust"
+                android:layout_margin="8dp"
+                android:hint="No Of Rooms"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edit_text"
+                android:ems="10"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/id_spinner_prop_year_cust"
+                android:layout_margin="8dp"
+                android:hint="year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/id_et_prop_price_cust"
+                android:layout_margin="8dp"
+                android:text="Property Price"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edit_text"
+                android:ems="10"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/id_spinner_prop_type_cust"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/id_spinner_prop_status_cust"
+                android:layout_margin="8dp"
+                android:text="Property Status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/id_spinner_prop_pay_status_cust"
+                android:layout_margin="8dp"
+                android:text="Property Pay Status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/id_spinner_prop_pay_month_cust"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/id_et_prop_desc_cust"
+                android:layout_margin="8dp"
+                android:hint="Description"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edit_text"
+                android:ems="10"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <EditText
+                android:id="@+id/id_et_prop_cust_email_cust"
+                android:layout_margin="8dp"
+                android:text="Customer Email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edit_text"
+                android:ems="10"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <EditText
+                android:id="@+id/id_et_prop_cust_phone_cust"
+                android:layout_margin="8dp"
+                android:text="Customer Phone"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edit_text"
+                android:ems="10"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <Button
+                android:id="@+id/id_btn_prop_add_cust"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Property"
+                android:background="@drawable/rounded_button"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDashBoard"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="32sp"
+        android:layout_marginRight="20sp">
+
+        <ImageView
+            android:id="@+id/bcc_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/str_ph_image_logo"
+            app:srcCompat="@drawable/web_hi_res_512" />
+
+        <TextView
+            android:id="@+id/index_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bcc_logo"
+            android:gravity="center"
+            android:text="@string/str_dash_ph_dashboard"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="addUser"
+        android:text="@string/str_dash_ph_new_customer"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="showProperties"
+        android:text="@string/str_dash_properties"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="showPayments"
+        android:text="@string/str_dash_payments"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="showStatistics"
+        android:text="@string/str_dash_ph_statistics"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="performLogout"
+        android:text="@string/str_dash_log_out"
+        android:textColor="#FFFFFF" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

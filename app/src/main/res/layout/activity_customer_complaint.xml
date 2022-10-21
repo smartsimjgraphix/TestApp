@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCustomerComplaint">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:layout_margin="15dp">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/web_hi_res_512"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send us your complaints"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_header_subtitle_forum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:layout_gravity="center"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/id_et_complaint_heading"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Complaint Heading"
+            android:background="@drawable/rounded_edit_text"
+            android:layout_margin="10dp"
+            android:padding="15dp"/>
+
+        <EditText
+            android:id="@+id/et_forum_details"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Your complaint"
+            android:background="@drawable/rounded_edit_text"
+            android:padding="15dp"
+            android:minLines="3"
+            android:maxLines="6"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/id_btn_send_complaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
